@@ -1,6 +1,6 @@
 package models
 
-// 👈 SignUpInput struct
+// SignUpInput struct
 type Customer struct {
 	Customer_ID int32  `json:"customer_id" bson:"customer_id" `
 	First_Name  string `json:"first_name" bson:"first_name" `
